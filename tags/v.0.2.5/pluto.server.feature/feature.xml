@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="pluto.server.feature"
+      label="Pluto Server Feature"
+      version="0.2.5">
+
+   <description>
+      Defines a generic server for the Apache Pluto portal driver (bundled
+with Apache Tomcat).  The main capability this plugin adds is
+that it will rewrite the web.xml file of the portlet web application
+as appropriate when publishing a portlet to Apache Pluto.
+   </description>
+
+   <copyright url="http://www.apache.org/licenses/LICENSE-2.0">
+      Copyright 2007 Marcus Christie
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0 
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing
+permissions and limitations under the License.
+   </copyright>
+
+   <license>
+      Licensed under the Apache License, Version 2.0.
+   </license>
+
+   <url>
+      <update label="Pluto Server Plug-in Updates" url="http://pluto-server-plugin.googlecode.com/svn/trunk/pluto.server.update"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jst.j2ee"/>
+      <import plugin="org.eclipse.wst.server.core"/>
+      <import plugin="org.eclipse.wst.server.ui"/>
+      <import plugin="org.eclipse.jst.server.generic.core"/>
+      <import plugin="org.eclipse.jst.server.core"/>
+      <import plugin="org.eclipse.wst.common.project.facet.core"/>
+      <import plugin="org.eclipse.wst.common.project.facet.ui"/>
+      <import plugin="org.eclipse.jst.server.generic.ui"/>
+      <import plugin="org.eclipse.jst.server.ui"/>
+      <import plugin="org.eclipse.jst.common.project.facet.core"/>
+   </requires>
+
+   <plugin
+         id="pluto.server.plugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
