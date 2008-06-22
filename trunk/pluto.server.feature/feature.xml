@@ -2,7 +2,7 @@
 <feature
       id="pluto.server.feature"
       label="Pluto Server Feature"
-      version="0.2.4">
+      version="0.2.5">
 
    <description>
       Defines a generic server for the Apache Pluto portal driver (bundled
@@ -29,7 +29,7 @@ permissions and limitations under the License.
    </license>
 
    <url>
-      <update url="http://www.cs.indiana.edu/~machrist/projects/pluto-server-plugin/updates"/>
+      <update label="Pluto Server Plug-in Updates" url="http://pluto-server-plugin.googlecode.com/svn/trunk/pluto.server.update"/>
    </url>
 
    <requires>
