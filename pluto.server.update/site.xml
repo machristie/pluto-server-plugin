@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description url="http://www.cs.indiana.edu/~machrist/projects/pluto-server-plugin/updates">
+   <description url="http://pluto-server-plugin.googlecode.com/svn/trunk/pluto.server.update">
       Pluto server plug-in update site.
    </description>
    <feature url="features/pluto.server.feature_0.1.0.jar" id="pluto.server.feature" version="0.1.0"/>
@@ -11,4 +11,5 @@
    <feature url="features/pluto.server.feature_0.2.2.jar" id="pluto.server.feature" version="0.2.2"/>
    <feature url="features/pluto.server.feature_0.2.3.jar" id="pluto.server.feature" version="0.2.3"/>
    <feature url="features/pluto.server.feature_0.2.4.jar" id="pluto.server.feature" version="0.2.4"/>
+   <feature url="features/pluto.server.feature_0.2.5.jar" id="pluto.server.feature" version="0.2.5"/>
 </site>
