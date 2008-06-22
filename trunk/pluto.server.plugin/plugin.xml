@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+  <extension point="org.eclipse.wst.server.core.runtimeTypes">
+    <runtimeType
+      id="org.eclipse.jst.server.generic.runtime.pluto.tomcat.11"
+      name="Pluto Bundle v1.1" description="Pluto v1.1 bundled with Tomcat"
+      vendor="Apache" version="1.1"
+      class="org.eclipse.jst.server.generic.core.internal.GenericServerRuntime">
+      <moduleType types="jst.web" versions="2.2, 2.3, 2.4" />
+      <moduleType types="jst.utility" versions="1.0" />
+    </runtimeType>
+  </extension>
+  <extension point="org.eclipse.wst.server.core.serverTypes">
+    <serverType runtime="true"
+      class="org.eclipse.jst.server.generic.core.internal.GenericServer"
+      id="org.eclipse.jst.server.generic.pluto.tomcat.11"
+      initialState="stopped" startTimeout="600000" stopTimeout="15000"
+      supportsRemoteHosts="false"
+      runtimeTypeId="org.eclipse.jst.server.generic.runtime.pluto.tomcat.11"
+      description="Pluto v1.1 bundled with Tomcat"
+      launchConfigId="org.eclipse.jst.server.generic.core.launchConfigurationType"
+      behaviourClass="org.eclipse.jst.server.generic.core.internal.GenericServerBehaviour"
+      name="Pluto Bundle v1.1" hasConfiguration="false"
+      launchModes="run,debug" startBeforePublish="true" />
+
+  </extension>
+
+  <extension point="org.eclipse.wst.server.ui.wizardFragments">
+    <fragment id="org.eclipse.jst.server.generic.runtime"
+      typeIds="org.eclipse.jst.server.generic.runtime.pluto.tomcat.11"
+      class="org.eclipse.jst.server.generic.ui.internal.GenericServerRuntimeWizardFragment" />
+    <fragment id="org.eclipse.jst.server.generic.server"
+      typeIds="org.eclipse.jst.server.generic.pluto.tomcat.11"
+      class="org.eclipse.jst.server.generic.ui.internal.GenericServerWizardFragment" />
+  </extension>
+
+  <extension
+    point="org.eclipse.jst.server.generic.core.serverdefinition">
+    <serverdefinition
+      id="org.eclipse.jst.server.generic.runtime.pluto.tomcat.11"
+      definitionfile="/serverdef/pluto.tomcat.11.serverdef" />
+
+  </extension>
+
+  <extension
+    point="org.eclipse.jst.server.core.runtimeClasspathProviders">
+    <runtimeClasspathProvider
+      id="org.eclipse.jst.server.generic.runtime.pluto.tomcat.runtimeClasspathProvider"
+      runtimeTypeIds="org.eclipse.jst.server.generic.runtime.pluto.tomcat.11"
+      class="org.eclipse.jst.server.generic.core.internal.GenericServerRuntimeTargetHandler" />
+  </extension>
+
+  <extension point="org.eclipse.wst.server.ui.serverImages">
+    <image icon="/icons/obj16/tomcat.gif"
+      id="org.eclipse.jst.server.generic.image"
+      typeIds="org.eclipse.jst.server.generic.pluto.tomcat.11" />
+    <image icon="/icons/obj16/tomcat.gif"
+      id="org.eclipse.jst.server.generic.image"
+      typeIds="org.eclipse.jst.server.generic.runtime.pluto.tomcat.11" />
+  </extension>
+  <extension
+    point="org.eclipse.wst.common.project.facet.core.runtimes">
+    <runtime-component-type
+      id="org.eclipse.jst.server.generic.runtime.pluto.tomcat" />
+
+    <runtime-component-version
+      type="org.eclipse.jst.server.generic.runtime.pluto.tomcat"
+      version="1.1" />
+    <adapter>
+      <runtime-component
+        id="org.eclipse.jst.server.generic.runtime.pluto.tomcat" />
+      <factory
+        class="org.eclipse.jst.server.core.internal.RuntimeClasspathProvider$Factory" />
+      <type
+        class="org.eclipse.jst.common.project.facet.core.IClasspathProvider" />
+    </adapter>
+    <adapter>
+      <runtime-component id="org.eclipse.jst.server.generic.runtime.pluto.tomcat" />
+      <factory
+        class="org.eclipse.jst.server.ui.internal.RuntimeLabelProvider$Factory" />
+      <type
+        class="org.eclipse.wst.common.project.facet.ui.IRuntimeComponentLabelProvider" />
+    </adapter>
+
+    <supported>
+      <runtime-component
+        id="org.eclipse.jst.server.generic.runtime.pluto.tomcat"
+        version="1.1" />
+      <facet id="jst.web" version="2.2,2.3,2.4" />
+      <facet id="jst.utility" version="1.0" />
+    </supported>
+  </extension>
+  
+  <extension point="org.eclipse.wst.common.project.facet.ui.images">
+    <image
+      runtime-component-type="org.eclipse.jst.server.generic.runtime.pluto.tomcat"
+      path="/icons/obj16/tomcat.gif" />
+  </extension>
+  
+  <extension point="org.eclipse.jst.server.core.runtimeFacetMappings">
+    <runtimeFacetMapping
+      runtimeTypeId="org.eclipse.jst.server.generic.runtime.pluto.tomcat.11"
+      runtime-component="org.eclipse.jst.server.generic.runtime.pluto.tomcat" version="1.1" />
+  </extension>
+</plugin>
