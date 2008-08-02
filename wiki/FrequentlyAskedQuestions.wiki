@@ -1,4 +1,5 @@
 #summary Answers to frequently asked questions.
+#labels Featured
 
 = Frequently Asked Questions (FAQ) =
 
