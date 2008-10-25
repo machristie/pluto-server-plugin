@@ -7,7 +7,7 @@
       name="Pluto Bundle v1.1" description="Pluto v1.1 bundled with Tomcat"
       vendor="Apache" version="1.1"
       class="org.eclipse.jst.server.generic.core.internal.GenericServerRuntime">
-      <moduleType types="jst.web" versions="2.2, 2.3, 2.4" />
+      <moduleType types="jst.web" versions="2.2, 2.3, 2.4, 2.5" />
       <moduleType types="jst.utility" versions="1.0" />
     </runtimeType>
   </extension>
@@ -87,7 +87,7 @@
       <runtime-component
         id="org.eclipse.jst.server.generic.runtime.pluto.tomcat"
         version="1.1" />
-      <facet id="jst.web" version="2.2,2.3,2.4" />
+      <facet id="jst.web" version="2.2,2.3,2.4,2.5" />
       <facet id="jst.utility" version="1.0" />
     </supported>
   </extension>
