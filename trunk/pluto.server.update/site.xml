@@ -12,4 +12,5 @@
    <feature url="features/pluto.server.feature_0.2.3.jar" id="pluto.server.feature" version="0.2.3"/>
    <feature url="features/pluto.server.feature_0.2.4.jar" id="pluto.server.feature" version="0.2.4"/>
    <feature url="features/pluto.server.feature_0.2.5.jar" id="pluto.server.feature" version="0.2.5"/>
+   <feature url="features/pluto.server.feature_1.0.0.b1.jar" id="pluto.server.feature" version="1.0.0.b1"/>
 </site>
