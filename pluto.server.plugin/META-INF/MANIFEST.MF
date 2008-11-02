@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Pluto Server Plug-in
 Bundle-SymbolicName: pluto.server.plugin;singleton:=true
-Bundle-Version: 0.2.5
+Bundle-Version: 1.0.0.b1
 Bundle-Activator: pluto.server.plugin.Activator
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.jst.j2ee,
