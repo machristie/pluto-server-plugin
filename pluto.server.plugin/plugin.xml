@@ -106,7 +106,7 @@
   
   <extension
         point="org.eclipse.ant.core.antTasks">
-        <antTask name="pluto.assemble" class="org.apache.pluto.ant.AssembleTask" library="lib/pluto-ant-tasks-1.1.4.jar" eclipseRuntime="false"/>
+        <antTask name="pluto.assemble" class="org.apache.pluto.ant.AssembleTask" library="lib/pluto-ant-tasks-1.1.6.jar" eclipseRuntime="false"/>
   </extension>
   
   <!-- classpath needed by the AssembleTask -->
@@ -122,10 +122,9 @@
  	<extraClasspathEntries library="lib/commons-lang-1.0.jar" eclipseRuntime="false"/>
  	<extraClasspathEntries library="lib/commons-logging-1.0.jar" eclipseRuntime="false"/>
  	<extraClasspathEntries library="lib/commons-logging-api-1.1.jar" eclipseRuntime="false"/>
- 	<extraClasspathEntries library="lib/junit-3.7.jar" eclipseRuntime="false"/>
- 	<extraClasspathEntries library="lib/pluto-descriptor-api-1.1.4.jar" eclipseRuntime="false"/>
- 	<extraClasspathEntries library="lib/pluto-descriptor-impl-1.1.4.jar" eclipseRuntime="false"/>
- 	<extraClasspathEntries library="lib/pluto-util-1.1.4.jar" eclipseRuntime="false"/>
+ 	<extraClasspathEntries library="lib/pluto-descriptor-api-1.1.6.jar" eclipseRuntime="false"/>
+ 	<extraClasspathEntries library="lib/pluto-descriptor-impl-1.1.6.jar" eclipseRuntime="false"/>
+ 	<extraClasspathEntries library="lib/pluto-util-1.1.6.jar" eclipseRuntime="false"/>
  	<extraClasspathEntries library="lib/xercesImpl-2.6.2.jar" eclipseRuntime="false"/>
  	<extraClasspathEntries library="lib/xmlParserAPIs-2.6.2.jar" eclipseRuntime="false"/>
   </extension>
