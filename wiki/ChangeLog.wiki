@@ -1,0 +1,6 @@
+#summary Release history and summary of changes in each release
+
+= Change Log =
+
+== Version 1.0.0 ==
+  * Including ant task jars in the plug-in instead of downloading them via Maven
