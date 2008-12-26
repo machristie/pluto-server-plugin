@@ -104,9 +104,11 @@
       runtime-component="org.eclipse.jst.server.generic.runtime.pluto.tomcat" version="1.1" />
   </extension>
   
-  <extension
-        point="org.eclipse.ant.core.antTasks">
-        <antTask name="pluto.assemble" class="org.apache.pluto.ant.AssembleTask" library="lib/pluto-ant-tasks-1.1.6.jar" eclipseRuntime="false"/>
+  <extension point="org.eclipse.ant.core.antTasks">
+		<antTask name="pluto.assemble" 
+			class="org.apache.pluto.ant.AssembleTask" 
+			library="lib/pluto-ant-tasks-1.1.6.jar" 
+			eclipseRuntime="false"/>
   </extension>
   
   <!-- classpath needed by the AssembleTask -->

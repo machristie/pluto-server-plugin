@@ -2,7 +2,7 @@
 <feature
       id="pluto.server.feature"
       label="Pluto Server Feature"
-      version="1.0.0.b1">
+      version="1.0.0">
 
    <description>
       Defines a generic server for the Apache Pluto portal driver (bundled
